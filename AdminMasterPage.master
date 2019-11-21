@@ -1,0 +1,101 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminMasterPage.master.cs" Inherits="ADMIN_AdminMasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+         body{
+             background-image:url('Images/VM.jpg');
+             background-image: radial-gradient(green, white, skyblue);
+             background-repeat: no-repeat;
+             background-size: cover;
+             background-position: center;
+             height:789px;
+             
+        }
+        
+        .auto-style1 {
+            width: 100%;
+        }
+        
+        .auto-style2 {
+            text-align: center;
+            font-size: xx-large;
+            height: 224px;
+            color: #FF5050;
+        }
+        .auto-style3 {
+            text-align: center;
+        }
+        .auto-style4 {
+            height: 23px;
+        }
+        .auto-style5 {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+      <br /><br /><br /><br />
+          <h1 style="top:auto; text-align:center; color:black;"><h1>A Systematic Approach To Threat Modeling And Security Analysis For Software Defined Networking</h1>
+         <br /><br />
+    <form id="form1" runat="server">
+        <div>
+        <table>
+            
+            <tr>
+                <td class="auto-style4" colspan="5"></td>
+            </tr>
+            <tr>
+                 <td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </td>
+                <td class="auto-style3"><em>
+                    <asp:HyperLink ID="HyperLink1" runat="server" CssClass="auto-style5" NavigateUrl="~/Admin/AdminCloudServer.aspx"><h2>CLOUDSERVER</h2></asp:HyperLink>
+                    </em></td>
+                <td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   </td>
+                <td class="auto-style3"><em>
+                    <asp:HyperLink ID="HyperLink2" runat="server" CssClass="auto-style5" NavigateUrl="~/ADMIN/AdminAddingVM.aspx"><h2>VM</h2></asp:HyperLink>
+                    </em></td>
+                 <td>&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; </td>
+                <td class="auto-style3"><em>
+                    <asp:HyperLink ID="HyperLink3" runat="server" CssClass="auto-style5" NavigateUrl="~/ADMIN/AdminUploadingFiles.aspx"><h2>FILES</h2></asp:HyperLink>
+                    </em></td>
+                 <td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </td>
+                <td class="auto-style3"><em>
+                    <asp:HyperLink ID="HyperLink4" runat="server" CssClass="auto-style5" NavigateUrl="~/Admin/AcceptUserRegistration.aspx"><h2>USERS</h2></asp:HyperLink>
+                    </em></td>
+                <td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </td>
+                <td class="auto-style3"><em>
+                    <asp:HyperLink ID="HyperLink5" runat="server" CssClass="auto-style5" NavigateUrl="~/Admin/AcceptingUserRequest.aspx"><h2>REQUEST</h2></asp:HyperLink>
+                    </em></td>
+                 <td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </td>
+                <td class="auto-style3"><em>
+                    <asp:HyperLink ID="HyperLink6" runat="server" CssClass="auto-style5" NavigateUr="" NavigateUrl="~/ADMIN/AttackerAlert.aspx"><h2>ALERT</h2></asp:HyperLink>
+                    </em></td>
+                <td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </td>
+                <td class="auto-style3"><em>
+                    <asp:HyperLink ID="HyperLink7" runat="server" CssClass="auto-style5" NavigateUr="" NavigateUrl="~/ADMIN/Email.aspx"><h2>EMAIL</h2></asp:HyperLink>
+                    </em></td>
+                <td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </td>
+                <td class="auto-style3"><em>
+                    <asp:HyperLink ID="HyperLink8" runat="server" CssClass="auto-style5" NavigateUr="" NavigateUrl="~/ADMIN/Update.aspx"><h2>UPDATE</h2></asp:HyperLink>
+                    </em></td>
+
+                 <td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </td>
+                <td class="auto-style3"><em>
+                    <asp:HyperLink ID="HyperLink9" runat="server" CssClass="auto-style5" NavigateUrl="~/HomePage.aspx"><h2>LOGOUT</h2></asp:HyperLink>
+                    </em></td>
+            </tr>
+           
+            </table>
+         
+            </div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

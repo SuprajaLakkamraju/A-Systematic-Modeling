@@ -1,0 +1,97 @@
+﻿<%@ Master Language="VB" CodeFile="SystematicMasterPage.master.vb" Inherits="SystematicMasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        body{
+             background-image:url(Images/VM.jpg);
+             background-repeat: no-repeat;
+             background-size: cover;
+             background-position: center;
+             height:789px;
+             
+        }
+        
+
+        body{
+            margin:0;
+        }
+        .bgimg{
+            width:1440px;
+            height:785.01px;
+        }
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            height: 50px;
+            text-align: left;
+            font-size: xx-large;
+        }
+        .auto-style3 {
+            text-align: center;
+        }
+        .auto-style4 {
+            text-decoration: none;
+        }
+        .auto-style5 {
+            width: 100%;
+            height: 226px;
+        }
+      
+        </style>
+</head>
+<body>
+    <br /><br /><br /><br />
+          <h1 style="top:auto; text-align:center; color:white;">A Systematic Approach To Threat Modeling And Security Analysis For Software Defined Networking</h1>
+         <br /><br />
+
+    <form id="form1" runat="server">
+    <div>
+         <table>
+       
+          
+            <tr>
+                <td>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
+                <td class="auto-style3"><em>
+                    <asp:HyperLink ID="HyperLink1" runat="server" CssClass="auto-style4" NavigateUrl="~/HomePage.aspx"><h2 style="color:white;">HOME</h2></asp:HyperLink>
+                    </em></td>
+                 <td> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
+                <td class="auto-style3"><em>
+                    <asp:HyperLink ID="HyperLink4" runat="server" CssClass="auto-style4" NavigateUrl="~/AdminLogin.aspx"><h2 style="color:white;">ADMIN</h2></asp:HyperLink>
+                    </em></td>
+                 <td> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
+                 <td class="auto-style3"><em>
+                    <asp:HyperLink ID="HyperLink5" runat="server" CssClass="auto-style4" NavigateUrl="~/UserLogin.aspx"><h2 style="color:white;">USER</h2></asp:HyperLink>
+                    </em></td>
+                 <td>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
+                 <td class="auto-style3"><em>
+                    <asp:HyperLink ID="HyperLink6" runat="server" CssClass="auto-style4" NavigateUrl="~/AttackerLogin.aspx"><h2 style="color:white;">ATTACKER</h2></asp:HyperLink>
+                    </em></td>
+                 <td>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
+                 <td class="auto-style3"><em>
+                    <asp:HyperLink ID="HyperLink7" runat="server" CssClass="auto-style4" NavigateUrl="~/Registration.aspx"><h2 style="color:white;">REGISTRATION</h2></asp:HyperLink>
+                    </em></td>
+                 
+            </tr>
+            <tr>
+
+            </tr>
+       
+            
+              </table>
+        </div>
+      
+       
+
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>
